@@ -11,7 +11,7 @@ describe('Sign up button', () => {
                     click: () => {
                         form.submit();
                         successMessage.style.display = 'block';
-                        successMessage.textContent = 'Sign up succesful';
+                        successMessage.textContent = 'Sign up successful';
                     },
                 };
             }
